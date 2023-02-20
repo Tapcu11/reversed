@@ -1,4 +1,5 @@
 num = int(input("Number:"))
+
 reversed_num = 0
 
 while num != 0:
@@ -7,4 +8,3 @@ while num != 0:
     num //= 10
 
     print("Reversed Number: " + str(reversed_num))
-
