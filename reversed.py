@@ -8,3 +8,10 @@ while num != 0:
     num //= 10
 
     print("Reversed Number: " + str(reversed_num))
+
+divisior = 0
+for i in range(1, reversed_num + 1):
+    if reversed_num % i == 0:
+        divisior += 1
+        print("divisior: ", i)
+print("sum of divisiors c: ", divisior)
